@@ -1,6 +1,6 @@
 # lscrp-hud
 
-FiveM HUD resource for LSCRP, based on the existing 0r-hud-v3 resource.
+FiveM HUD resource for LSCRP.
 
 ## Installation
 
