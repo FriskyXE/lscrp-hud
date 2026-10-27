@@ -40,10 +40,10 @@ local function openHudSettings()
     client.SendReactMessage('ui:setSettingsOpen', true)
 end
 
-RegisterNetEvent('0r-hud:Client:cinematiccamstart', function()
+RegisterNetEvent('lscrp-hud:Client:cinematiccamstart', function()
     client.SendReactMessage('ui:toggleCinematicMode')
 end)
-RegisterNetEvent('0r-hud:Client:cinematiccamstart1', function()
+RegisterNetEvent('lscrp-hud:Client:cinematiccamstart1', function()
     client.SendReactMessage('ui:toggleCinematicMode')
 end)
 -- Toggle cinematic mode

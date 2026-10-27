@@ -423,7 +423,7 @@ function Hud.SetVisible(state)
 end
 
 -- The vehicle gear is updated with data from the `hrsgears` script.
-RegisterNetEvent('0r-hud:Client:SetManualGear', function(newGear)
+RegisterNetEvent('lscrp-hud:Client:SetManualGear', function(newGear)
     Hud.data.vehicle_info.manualGear = newGear
 end)
 
